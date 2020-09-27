@@ -5,7 +5,7 @@ int main(void)
 { 
   float score; 
   printf("Input score: ") ; 
-  scanf("%f",&score); 
+  scanf("%2f",&score); 
   int x = (int) score;
   switch( x /10)
   {
