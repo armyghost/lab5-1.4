@@ -20,21 +20,21 @@ int main(void)
       printf("Your score : A");
       break;
     case 7:
-      if((score >=75)&&(score <=79))
+      if((score >=75.00)&&(score <=79.99))
         printf("Your score : B+");
-      if((score >=70)&&(score <=74))
+      if((score >=70.00)&&(score <=74.99))
         printf("Your score : B");
       break;
     case 6:
-      if((score >=65)&&(score <=69))
+      if((score >=65.00)&&(score <=69.99))
         printf("Your score : C+");
-      if((score >=60)&&(score <=64))
+      if((score >=60.00)&&(score <=64.99))
         printf("Your score : C");
       break;
     case 5:
-      if((score >=55)&&(score <=59))
+      if((score >=55.00)&&(score <=59.99))
         printf("Your score : D+");
-      if((score >=50)&&(score <=54))
+      if((score >=50.00)&&(score <=54.99))
         printf("Your score : D");
       break;
     case 4:
